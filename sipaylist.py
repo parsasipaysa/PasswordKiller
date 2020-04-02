@@ -131,7 +131,6 @@ def answer():
                 for i in range(1,len(lis)+1):
                     for permutation in permutations(lis,i):
                         x = (''.join([str(p) for p in permutation]))
-                        print(Fore.BLUE+"[+]"+Fore.YELLOW+" Please wait")
                         print2(x)
                 input(Fore.BLUE+'[*] '+Fore.GREEN+'OK... The Passwords Were Stored In a File Called ""sipaylist.txt""')
                 pr = input(Fore.LIGHTRED_EX+"[?]"+Fore.LIGHTBLUE_EX+" you see sipaylist.txt? y/n  ")
