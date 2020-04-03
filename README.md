@@ -1,6 +1,6 @@
 # sipaylist
 
-Thanks for download:)
+Thanks for download :)
 
 first stage:
 Write : pip3 install -r librarys.txt
