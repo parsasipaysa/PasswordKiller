@@ -128,6 +128,7 @@ def answer():
                     lis.append(kr)
                 os.system('clear')
                 logo()
+                print(Fore.BLUE+"[+]"+Fore.YELLOW+" Pleas wait")
                 for i in range(1,len(lis)+1):
                     for permutation in permutations(lis,i):
                         x = (''.join([str(p) for p in permutation]))
