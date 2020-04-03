@@ -36,7 +36,7 @@ def answer():
   └──╼ """+Fore.WHITE+">> ")
             if option == "1":
                 os.system('clear')
-                lis = ["_"]
+                lis = ["_", "#", "@"]
                 logo()
                 xs()
                 a = input(Fore.RED+"  ┌─["+Fore.LIGHTGREEN_EX+"What is a person's first name? "+Fore.BLUE+"~"+Fore.WHITE+"TELEGRAM ID: @SIPAY"+Fore.RED+"/"+Fore.CYAN+"HACK"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"OK..."+Fore.RED+"""]
@@ -151,6 +151,10 @@ def answer():
                     print(Fore.RED+"[!] Pleas Enter"+Fore.mro+":)")
                     sys.exit()
                 items = item.split(',')
+                items.append("_")
+                items.append("#")
+                items.append("@")
+                print(Fore.BLUE+"[+]"+Fore.YELLOW+" Pleas wait")
                 for i in range(1,len(items)+1):
                     for permutation in permutations(items,i):
                         x = (''.join([str(p) for p in permutation]))
