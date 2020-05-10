@@ -3,7 +3,7 @@
 Thanks for download :)
 
 first stage:
-Write : pip3 install -r librarys.txt
+Write : pip3 install -r requirments.txt
 
 second stage:
 write : python3 sipaylist.py
