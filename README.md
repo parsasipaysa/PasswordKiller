@@ -12,18 +12,23 @@
                                                                  ░                                                    
 HI My Dear :)
 
-[!] You definitely want to create a strong password when it comes to this project. Isn't that so? :) thank you well
+
+[!] You definitely want to create a strong password-list when it comes to this project. Isn't that so? :) thank you well
+
 
 
 
 [+] You will need to install Python and git to be able to use this script
 
 
+
 [+] You also need a colorama library
 
 
 
+
 [1] In the first step, you need to install this project:  git clone https://github.com/parsasipaysa/PasswordKiller.git
+
 
 
 
@@ -40,7 +45,7 @@ python -m pip install colorama
 python3 install.py
 
 
-[3] well. Now you can run the project :) python3 PasswordKiller.py
 
+[3] well. Now you can run the project :) python3 PasswordKiller.py
 
 
