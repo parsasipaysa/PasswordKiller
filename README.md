@@ -10,30 +10,3 @@
 ░░         ░   ▒   ░  ░  ░  ░  ░  ░    ░   ░  ░ ░ ░ ▒    ░░   ░  ░ ░  ░    ░ ░░ ░  ▒ ░  ░ ░     ░ ░      ░     ░░   ░ 
                ░  ░      ░        ░      ░        ░ ░     ░        ░       ░  ░    ░      ░  ░    ░  ░   ░  ░   ░     
                                                                  ░                                                    
-
-
-[HAHA!] MADE BY PARSA HAMIDI
-
-
-[?] How do you information?
-
- 
-[1] I'll answer yor questions
-
-*************************
- 
-[2] I enter the information myself
-
-*************************
- 
-[3] Developer :)
-
-*************************
- 
-[4] Exit :(
-
-*************************
-
-
-  ┌─[Select an Option :)~TELEGRAM ID: @SIPAY/HACK/OK...]
-  └──╼ >> 
