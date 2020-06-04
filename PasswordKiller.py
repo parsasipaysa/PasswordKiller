@@ -1,38 +1,43 @@
 
 
-"""
-_________________________________________________________________________________________________________________________
-                                                                                                                         |
-                                                                                                                         |
- ██▓███   ▄▄▄        ██████   ██████  █     █░ ▒█████   ██▀███  ▓█████▄     ██ ▄█▀ ██▓ ██▓     ██▓    ▓█████  ██▀███     |
-▓██░  ██▒▒████▄    ▒██    ▒ ▒██    ▒ ▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌    ██▄█▒ ▓██▒▓██▒    ▓██▒    ▓█   ▀ ▓██ ▒ ██▒   |
-▓██░ ██▓▒▒██  ▀█▄  ░ ▓██▄   ░ ▓██▄   ▒█░ █ ░█ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌   ▓███▄░ ▒██▒▒██░    ▒██░    ▒███   ▓██ ░▄█ ▒   |
-▒██▄█▓▒ ▒░██▄▄▄▄██   ▒   ██▒  ▒   ██▒░█░ █ ░█ ▒██   ██░▒██▀▀█▄  ░▓█▄   ▌   ▓██ █▄ ░██░▒██░    ▒██░    ▒▓█  ▄ ▒██▀▀█▄     |
-▒██▒ ░  ░ ▓█   ▓██▒▒██████▒▒▒██████▒▒░░██▒██▓ ░ ████▓▒░░██▓ ▒██▒░▒████▓    ▒██▒ █▄░██░░██████▒░██████▒░▒████▒░██▓ ▒██▒   |
-▒▓▒░ ░  ░ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░░ ▓░▒ ▒  ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ▒▒▓  ▒    ▒ ▒▒ ▓▒░▓  ░ ▒░▓  ░░ ▒░▓  ░░░ ▒░ ░░ ▒▓ ░▒▓░   |
-░▒ ░       ▒   ▒▒ ░░ ░▒  ░ ░░ ░▒  ░ ░  ▒ ░ ░    ░ ▒ ▒░   ░▒ ░ ▒░ ░ ▒  ▒    ░ ░▒ ▒░ ▒ ░░ ░ ▒  ░░ ░ ▒  ░ ░ ░  ░  ░▒ ░ ▒░   |
-░░         ░   ▒   ░  ░  ░  ░  ░  ░    ░   ░  ░ ░ ░ ▒    ░░   ░  ░ ░  ░    ░ ░░ ░  ▒ ░  ░ ░     ░ ░      ░     ░░   ░    |
-               ░  ░      ░        ░      ░        ░ ░     ░        ░       ░  ░    ░      ░  ░    ░  ░   ░  ░   ░        |
-                                                                 ░                                                       |
-                                                    ^^^^^^^                                                              |
-                                                    WELCOME                                                              |
-_________________________________________________________________________________________________________________________|
 
-"""
+# _________________________________________________________________________________________________________________________
+#                                                                                                                          |
+#                                                                                                                          |
+#  ██▓███   ▄▄▄        ██████   ██████  █     █░ ▒█████   ██▀███  ▓█████▄     ██ ▄█▀ ██▓ ██▓     ██▓    ▓█████  ██▀███     |
+# ▓██░  ██▒▒████▄    ▒██    ▒ ▒██    ▒ ▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌    ██▄█▒ ▓██▒▓██▒    ▓██▒    ▓█   ▀ ▓██ ▒ ██▒   |
+# ▓██░ ██▓▒▒██  ▀█▄  ░ ▓██▄   ░ ▓██▄   ▒█░ █ ░█ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌   ▓███▄░ ▒██▒▒██░    ▒██░    ▒███   ▓██ ░▄█ ▒   |
+# ▒██▄█▓▒ ▒░██▄▄▄▄██   ▒   ██▒  ▒   ██▒░█░ █ ░█ ▒██   ██░▒██▀▀█▄  ░▓█▄   ▌   ▓██ █▄ ░██░▒██░    ▒██░    ▒▓█  ▄ ▒██▀▀█▄     |
+# ▒██▒ ░  ░ ▓█   ▓██▒▒██████▒▒▒██████▒▒░░██▒██▓ ░ ████▓▒░░██▓ ▒██▒░▒████▓    ▒██▒ █▄░██░░██████▒░██████▒░▒████▒░██▓ ▒██▒   |
+# ▒▓▒░ ░  ░ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░░ ▓░▒ ▒  ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░ ▒▒▓  ▒    ▒ ▒▒ ▓▒░▓  ░ ▒░▓  ░░ ▒░▓  ░░░ ▒░ ░░ ▒▓ ░▒▓░   |
+# ░▒ ░       ▒   ▒▒ ░░ ░▒  ░ ░░ ░▒  ░ ░  ▒ ░ ░    ░ ▒ ▒░   ░▒ ░ ▒░ ░ ▒  ▒    ░ ░▒ ▒░ ▒ ░░ ░ ▒  ░░ ░ ▒  ░ ░ ░  ░  ░▒ ░ ▒░   |
+# ░░         ░   ▒   ░  ░  ░  ░  ░  ░    ░   ░  ░ ░ ░ ▒    ░░   ░  ░ ░  ░    ░ ░░ ░  ▒ ░  ░ ░     ░ ░      ░     ░░   ░    |
+#                ░  ░      ░        ░      ░        ░ ░     ░        ░       ░  ░    ░      ░  ░    ░  ░   ░  ░   ░        |
+#                                                                  ░                                                       |
+#                                                     ^^^^^^^                                                              |
+#                                                     WELCOME                                                              |
+# _________________________________________________________________________________________________________________________|
+
 
 from itertools import permutations
 from colorama import Fore
 import sys
 import os
 from time import sleep
-import pyfiglet
 
 def xs():
     print(Fore.RED+"\n[!]"+Fore.BLUE+" if you dont know, empty enter\n")
 
 def logo():
-    #print(Fore.RED+pyfiglet.figlet_format("password",font = 'epic'))
-    print(Fore.GREEN+"""
+
+    from random import randint
+    names = [Fore.RED, Fore.BLUE, Fore.GREEN, Fore.YELLOW, Fore.CYAN, Fore.MAGENTA, Fore.LIGHTCYAN_EX, Fore.LIGHTGREEN_EX, Fore.LIGHTRED_EX]
+    index = randint(0, len(names) - 1)
+    
+
+
+    print(names[index]+"""
+
  ██▓███   ▄▄▄        ██████   ██████  █     █░ ▒█████   ██▀███  ▓█████▄     ██ ▄█▀ ██▓ ██▓     ██▓    ▓█████  ██▀███  
 ▓██░  ██▒▒████▄    ▒██    ▒ ▒██    ▒ ▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▒██▀ ██▌    ██▄█▒ ▓██▒▓██▒    ▓██▒    ▓█   ▀ ▓██ ▒ ██▒
 ▓██░ ██▓▒▒██  ▀█▄  ░ ▓██▄   ░ ▓██▄   ▒█░ █ ░█ ▒██░  ██▒▓██ ░▄█ ▒░██   █▌   ▓███▄░ ▒██▒▒██░    ▒██░    ▒███   ▓██ ░▄█ ▒
@@ -54,22 +59,26 @@ def answer():
         try:
             os.system('clear')
             logo()
-            sleep(0.2)
-            print(Fore.RED+"\n[HAHA!]"+Fore.YELLOW+" MADE BY PARSA HAMIDI"+"\n")
-            sleep(0.2)
+            sleep(0.1)
+            print(Fore.RED+"\n[HAHA!]"+Fore.YELLOW+" ?Q¿M? Team"+"\n")
+            sleep(0.1)
             print(Fore.RED+"\n[?]"+Fore.LIGHTBLUE_EX+" How do you information?"+"\n")
-            sleep(0.2)
+            sleep(0.1)
             print(Fore.YELLOW+" \n[1]"+Fore.RED+" I'll answer yor questions\n"+Fore.YELLOW+"\n*************************")
-            sleep(0.2)
+            sleep(0.1)
             print(Fore.YELLOW+" \n[2]"+Fore.RED+" I enter the information myself\n"+Fore.YELLOW+"\n*************************")
-            sleep(0.2)
+            sleep(0.1)
             print(Fore.YELLOW+" \n[3]"+Fore.RED+" Developer :)\n"+Fore.YELLOW+"\n*************************")
-            sleep(0.2)
+            sleep(0.1)
             print(Fore.YELLOW+" \n[4]"+Fore.RED+" Exit :(\n"+Fore.YELLOW+"\n*************************")
-            sleep(0.2)
+            sleep(0.1)
             
             option = input(Fore.RED+"\n\n  ┌─["+Fore.LIGHTGREEN_EX+"Select an Option :)"+Fore.BLUE+"~"+Fore.WHITE+"TELEGRAM ID: @SIPAY"+Fore.RED+"/"+Fore.CYAN+"HACK"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"OK..."+Fore.RED+"""]
   └──╼ """+Fore.WHITE+">> ")
+            if option == "" or option == "\n" or option == None:
+                input(Fore.RED+" [!]"+Fore.LIGHTBLUE_EX+" PLEASE ENTER OPTION ! \n")
+                sys.exit()
+
             if option == "1":
                 os.system('clear')
                 lis = []
@@ -269,7 +278,7 @@ def answer():
                 os.system('clear')
                 logo()
                 file_name = input(Fore.BLUE+"\n[+]"+Fore.YELLOW+" Please write the name of the file you want the passwords to be saved -->  ")
-                print(Fore.BLUE+"\n\n[+]"+Fore.YELLOW+" Pleas wait")
+                print(Fore.BLUE+"\n\n[+]"+Fore.YELLOW+" Pleas wait. or Press Cntrl+C for Stop.")
                 for i in range(1,len(lis)+1):
                     for permutation in permutations(lis,i):
                         x = (''.join([str(p) for p in permutation]))
@@ -301,103 +310,103 @@ def answer():
 
                 has = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"# "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if has == "y" or has == "Y":
-                    lis.append("#")
+                    items.append("#")
                 else:
                     pass
 
                 star = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"* "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if star == "y" or star == "Y":
-                    lis.append("*")
+                    items.append("*")
                 else:
                     pass
 
                 plus = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"+ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if plus == "y" or plus == "Y":
-                    lis.append("+")
+                    items.append("+")
                 else:
                     pass
 
                 dar = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"% "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if dar == "y" or dar == "Y":
-                    lis.append("%")
+                    items.append("%")
                 else:
                     pass
 
                 boz = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"> "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if boz == "y" or boz == "Y":
-                    lis.append(">")
+                    items.append(">")
                 else:
                     pass
 
                 koc = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"< "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if koc == "y" or koc == "Y":
-                    lis.append("<")
+                    items.append("<")
                 else:
                     pass
 
                 under = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"_ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if under == "y" or under == "Y":
-                    lis.append("_")
+                    items.append("_")
                 else:
                     pass
 
                 do = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+": "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if do == "y" or do == "Y":
-                    lis.append(":")
+                    items.append(":")
                 else:
                     pass
 
                 par1 = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"( "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if par1 == "y" or par1 == "Y":
-                    lis.append("(")
+                    items.append("(")
                 else:
                     pass
 
                 par2 = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+") "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if par2 == "y" or par2 == "Y":
-                    lis.append(")")
+                    items.append(")")
                 else:
                     pass
 
                 ad = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"@ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if ad == "y" or ad == "Y":
-                    lis.append("@")
+                    items.append("@")
                 else:
                     pass
 
                 dol = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"$ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if dol == "y" or dol == "Y":
-                    lis.append("$")
+                    items.append("$")
                 else:
                     pass
 
                 kur1 = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"[ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if kur1 == "y" or kur1 == "Y":
-                    lis.append("[")
+                    items.append("[")
                 else:
                     pass
 
                 kur2 = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"] "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if kur2 == "y" or kur2 == "Y":
-                    lis.append("]")
+                    items.append("]")
                 else:
                     pass
 
                 minus = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"- "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if minus == "y" or minus == "Y":
-                    lis.append("-")
+                    items.append("-")
                 else:
                     pass
 
                 sl = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+r"\ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if sl == "y" or sl == "Y":
-                    lis.append("\\")
+                    items.append("\\")
                 else:
                     pass
 
                 sl2 = input(Fore.LIGHTBLUE_EX+"\nDo you want to be added to the passlist "+Fore.YELLOW+"/ "+Fore.RED+"? "+Fore.GREEN+"y"+Fore.WHITE+"/"+Fore.RED+"n  ")
                 if sl2 == "y" or sl2 == "Y":
-                    lis.append("/")
+                    items.append("/")
                 else:
                     pass
 
@@ -428,18 +437,18 @@ def answer():
                 os.system('clear')
                 logo()
                 print(Fore.RED+"""               
-                                 *_________________________________________*
-                                 |          )             )                |
-                                 |       ( /(   (      ( /(   (            | 
-                                 |       )\())  )\     )\())  )\           |
-                                 |       ((_)\((((_)(  ((_)\((((_)(        |
-                                 |       _((_))\ _ )\  _((_))\ _ )\        |
-                                 |       | || |(_)_\(_)| || |(_)_\(_)      |
-                                 |       | __ | / _ \  | __ | / _ \        |
-                                 |       |_||_|/_/ \_\ |_||_|/_/ \_\       |
-                                 |_________________________________________|""")
+                                
+                                                   ___    
+                                                  |__ \   
+                                                    /_/   
+                                                  _(_)__  
+                                                _|------| 
+                                                "`-0-0-''  
+""")
                 print("""
                                         Owner name : Parsa Hamidi
+
+                                        Team : QM
 
                                         Email : parsa.hamidi70@gmail.com
                 
